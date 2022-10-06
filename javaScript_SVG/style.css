@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root { --text-font-size: '...'; } /* set from javascript */
+
+*{
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    background-color: #EFEFEF;
+    padding: .25em;
+    font-size: 1.25em;
+}
+
+svg {
+    border: 2px solid #151515;
+    border-radius: 15px;
+}
+
+circle {
+    stroke-width: 4;
+    opacity: 0.7;
+    fill: white;
+}
+
+text {
+    font-size: var(--text-font-size);
+    text-anchor: middle;
+    alignment-baseline: middle;
+}
+
+button {
+    width: 5em; margin: 2px;
+}
+
+.container {
+    display: flex;
+
+}
