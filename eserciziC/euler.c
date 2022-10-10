@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -12,7 +13,7 @@ void primeNumber();
 void cubo();
 void binaryTodecimal();
 void sequence();
-void strcmp();
+void strcmp1();
 void occorrenze();
 
 /* MAIN WHICH CONTAINS THE EXERCIZES */
@@ -66,7 +67,7 @@ int main() {
     sequence();
     break;
   case 10:
-    strcmp();
+    strcmp1();
     break;
   case 11:
     occorrenze();
@@ -196,7 +197,7 @@ void bubbleSort() {
 }
 
 void smallest1To20() {
-  int N = 7;
+  int N = 20;
   int n = 40;
   int i, j = 0;
 
@@ -326,7 +327,7 @@ void sequence() {
   printf("\nIl numero massimo di elementi in sequenza cresente è: %d", max);
 }
 
-void strcmp() {
+void strcmp1() {
   char s1[20];
   char s2[20];
   int i;
